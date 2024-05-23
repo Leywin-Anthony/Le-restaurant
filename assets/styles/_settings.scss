@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "allura-Regu";
+    src: url(..//fonts/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins-medium";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "roboto_light";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+//var color
+$font1: allura-Regu, cursive;
+$font1: poppins-medium, serif;
+$font1: roboto_light, serif;
+
+$white: #eee;
+$grey: rgb(182, 182, 182);
+$black: #21201e;
+$color1: rgb(166, 114, 69);
