@@ -11,11 +11,32 @@
     src: url(../fonts/Roboto-Light.ttf);
 }
 //var color
-$font1: allura-Regu, cursive;
-$font1: poppins-medium, serif;
-$font1: roboto_light, serif;
-
 $white: #eee;
 $grey: rgb(182, 182, 182);
 $black: #21201e;
-$color1: rgb(166, 114, 69);
+$brow: rgb(166, 114, 69);
+
+body {
+    background: #21201e;
+    font-family: 'roboto_light';
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@mixin alignflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@mixin title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+html {
+    scroll-behavior: smooth;
+  }

@@ -1,9 +1,9 @@
-@import url(./_settings.scss);
+@import './settings';
 //layout
-@import url(./layout/_header.scss);
-@import url(./layout/_section1.scss);
-@import url(./layout/_section2.scss);
-@import url(./layout/_section3.scss);
-@import url(./layout/_section4.scss);
-@import url(./layout/_section5.scss);
-@import url(./layout/_footer.scss);
+@import './layout/header';
+@import './layout/section1';
+@import './layout/section2';
+@import './layout/section3';
+@import './layout/section4';
+@import './layout/section5';
+@import './layout/section5';

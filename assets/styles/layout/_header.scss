@@ -1,0 +1,53 @@
+
+header {
+  background: url(./img/bg-slider-06.jpg) center/cover;
+  min-height: 100vh;
+  color: whitesmoke;
+  padding: 0 50px;
+
+  nav {
+    max-width: 1000px;
+    height: 12vh;
+
+
+    .mid_nav ul {
+      font-size: 0.6rem;
+    }
+    .social ul {
+      font-size: 0.75rem;
+    }
+    
+  }
+  .header_title {
+    margin-top: 45px;
+    min-height: 44.5vh;
+    @include alignflex;
+    text-align: center;
+
+    h2 {
+      color: $brow;
+      font-family: 'allura-Regu';
+      font-size: 3.5rem;
+      font-weight: 100;
+    }
+    h1 {
+      font-weight: 900;
+      font-family: 'poppins-medium';
+      font-size: 3.5rem;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+    }
+    img {
+      
+    }
+    h6 {
+      letter-spacing: 9px;
+      font-weight: 100;
+      color: $white;
+      font-size: 1rem;
+      opacity: 0.8;
+      text-transform: uppercase;
+    }
+
+  }
+}

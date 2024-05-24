@@ -1,1 +1,89 @@
-/*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "allura-Regu";
+  src: url(..//fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-medium";
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "roboto_light";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+body {
+  background: #21201e;
+  font-family: "roboto_light";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: url(./img/bg-slider-06.jpg) center/cover;
+  min-height: 100vh;
+  color: whitesmoke;
+  padding: 0 50px;
+}
+header nav {
+  max-width: 1000px;
+  height: 12vh;
+}
+header nav .mid_nav ul {
+  font-size: 0.6rem;
+}
+header nav .social ul {
+  font-size: 0.75rem;
+}
+header .header_title {
+  margin-top: 45px;
+  min-height: 44.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+header .header_title h2 {
+  color: rgb(166, 114, 69);
+  font-family: "allura-Regu";
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+header .header_title h1 {
+  font-weight: 900;
+  font-family: "poppins-medium";
+  font-size: 3.5rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+header .header_title h6 {
+  letter-spacing: 9px;
+  font-weight: 100;
+  color: #eee;
+  font-size: 1rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}/*# sourceMappingURL=index.css.map */
