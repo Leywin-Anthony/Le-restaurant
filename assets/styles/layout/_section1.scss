@@ -1,4 +1,50 @@
 .section1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background: $white;
+    min-height: 47vh;
+
+    .block_white {
+        display: flex;
+        align-items: center;
+    }
+    .section1_text {
+        text-align: center;
+        border: 1px $brow dashed;
+        padding: 40px 15px;
+        margin: 15px;
+        h2 {
+            @include browntitle;
+            font-size: 2em;
+            font-weight: 100;
+            margin-bottom: -15px;
+        }
+        h3 {
+            font-family: 'poppins-medium';
+            text-transform: uppercase;
+        }
+        .first_img {
+            height: 30px;
+            margin: 20px 0;
+        }
+        .second_img {
+            border-radius: 150px;
+            height: 70px;
+            margin: 15px;
+
+        }
+        h4 {
+            font-family: 'poppins-medium';
+            font-weight: 100;
+            text-transform: capitalize;
+        }
+        h5 {
+            color: $grey;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+    }
+    .img_section1 {
+        background: url(./img/store-01.jpg) center/cover;
+    }
 }

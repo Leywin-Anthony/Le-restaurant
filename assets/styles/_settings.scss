@@ -14,7 +14,7 @@
 $white: #eee;
 $grey: rgb(182, 182, 182);
 $black: #21201e;
-$brow: rgb(166, 114, 69);
+$brow: #a67245;
 
 body {
     background: #21201e;
@@ -27,15 +27,25 @@ body {
     list-style: none;
 }
 
-@mixin alignflex {
+@mixin aligncolms{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+@mixin alignflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @mixin title {
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+@mixin browntitle {
+    color: $brow;
+    text-transform: capitalize;
+    font-family: 'allura-Regu';
 }
 html {
     scroll-behavior: smooth;
