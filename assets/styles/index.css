@@ -21,6 +21,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 html {
@@ -213,7 +214,7 @@ header .header_title h6 {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 16px 20px;
   position: relative;
   z-index: 1000;
 }
@@ -259,4 +260,272 @@ header .header_title h6 {
   height: 620px;
   position: absolute;
   top: 45%;
+}
+
+.section3 {
+  padding: 300px 15px 65px;
+}
+.section3 .block_form {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-width: 1050px;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section3 .block_form .block_black {
+  background: #000;
+}
+.section3 .block_form .block_black .day {
+  border: 1px dashed rgb(182, 182, 182);
+  margin: 25px;
+  padding: 25px 0;
+}
+.section3 .block_form .block_black .day h3 {
+  margin-bottom: -18px;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #a67245;
+  text-transform: capitalize;
+  font-family: "allura-Regu";
+}
+.section3 .block_form .block_black .day h4 {
+  color: #eee;
+  font-size: 1.3rem;
+  font-family: "poppins-medium", serif;
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section3 .block_form .block_black .day h5 {
+  color: #a67245;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 25px 0 10px;
+}
+.section3 .block_form .block_black .day .p {
+  color: #eee;
+  font-size: 0.9rem;
+  padding-bottom: 15px;
+}
+.section3 .block_form .block_black .day img {
+  padding: 30px 0 5px;
+}
+.section3 .block_form .form {
+  background: #eee;
+}
+.section3 .block_form .form h2 {
+  padding-top: 80px;
+  font-weight: 100;
+  color: #a67245;
+  text-transform: capitalize;
+  font-family: "allura-Regu";
+  font-size: 2.6rem;
+}
+.section3 .block_form .form h3 {
+  margin-top: -18px;
+  font-size: 1.7rem;
+  font-family: "poppins-medium", serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section3 .block_form .form img {
+  padding: 25px 0 40px;
+}
+.section3 .block_form .form form .button {
+  background: #21201e;
+  color: #eee;
+  border-radius: 50px;
+  padding: 12px 26px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+  font-family: "poppins-medium";
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+}
+.section3 .block_form .form form .button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section4 {
+  text-align: center;
+}
+.section4 .title h2 {
+  padding-top: 5px;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #a67245;
+  text-transform: capitalize;
+  font-family: "allura-Regu";
+}
+.section4 .title h3 {
+  margin-top: -10px;
+  font-size: 2rem;
+  color: #eee;
+  font-family: "poppins-medium", serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section4 .title img {
+  padding: 40px 0;
+}
+.section4 .event {
+  max-width: 1000px;
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 58% 42%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a b" "c b";
+  gap: 20px;
+  text-align: left;
+}
+.section4 .event .cont_1 {
+  grid-area: a;
+  background: #eee;
+  color: #21201e;
+  display: grid;
+  grid-template-columns: 39% 61%;
+  min-height: 20vh;
+}
+.section4 .event .cont_1 .date {
+  background: url(./img/event-01.jpg) center/cover;
+}
+.section4 .event .cont_2 {
+  grid-area: c;
+  background: #eee;
+  display: grid;
+  grid-template-columns: 39% 61%;
+  min-height: 20vh;
+}
+.section4 .event .cont_2 .date {
+  background: url(./img/event-02.jpg) center/cover;
+}
+.section4 .event .cont_3 {
+  grid-area: b;
+  color: #21201e;
+  background: url(./img/event-03.jpg) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+}
+.section4 .event .cont_3 .square_white {
+  background: #eee;
+  height: 100%;
+  padding: 0 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section4 .event .cont_3 .square_white h3 {
+  text-align: center;
+  padding: 40px 0 15px;
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+.section4 .event .cont_3 .square_white p {
+  opacity: 0.3;
+}
+.section4 .event .cont_3 .square_white h5 {
+  padding: 45px 0;
+}
+.section4 .event .cont_3 .square_white .square_date {
+  background: #21201e;
+  color: #eee;
+  height: 80px;
+  width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section4 .event .cont_3 .square_white .square_date h6 {
+  font-size: 1.6rem;
+}
+.section4 .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section4 .date .square_date {
+  background: #21201e;
+  height: 100px;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #eee;
+}
+.section4 .date .square_date h6 {
+  font-size: 1.6rem;
+}
+.section4 .name_event {
+  padding: 30px 20px;
+}
+.section4 .name_event h3 {
+  color: #21201e;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+.section4 .name_event p {
+  opacity: 0.3;
+  padding: 20px 0 0 20px;
+}
+.section4 a {
+  color: #21201e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 0 0 20px;
+  display: block;
+  font-size: 0.8rem;
+}
+.section4 a:visited {
+  color: #21201e;
 }/*# sourceMappingURL=index.css.map */

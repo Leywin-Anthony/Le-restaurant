@@ -1,0 +1,147 @@
+.section4 {
+  text-align: center;
+  
+  .title {
+    h2 {
+      padding-top: 5px;
+      font-size: 2.5rem;
+      font-weight: 100;
+      @include browntitle;
+    }
+    h3 {
+      margin-top: -10px;
+      font-size: 2rem;
+      color: $white;
+      font-family: 'poppins-medium',serif;
+      font-weight: bold;
+      @include title;
+    }
+    img {
+      padding: 40px 0;
+    }
+  }
+  .event {
+    max-width: 1000px;
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 58% 42%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c b";
+    gap: 20px;
+    text-align: left;
+
+    
+    .cont_1 {
+      grid-area: a;
+      background: $white;
+      color: $black;
+      display: grid;
+      grid-template-columns: 39% 61%;
+      min-height: 20vh;
+      
+      .date {
+        background: url(./img/event-01.jpg) center/cover;
+      }
+    }
+    .cont_2 {
+      grid-area: c;
+      background: $white;
+      display: grid;
+      grid-template-columns: 39% 61%;
+      min-height: 20vh;
+      .date {
+        background: url(./img/event-02.jpg) center/cover;
+      }
+    }
+    .cont_3 {
+      grid-area: b;
+      color: $black;
+      background: url(./img/event-03.jpg) center/cover;
+      @include aligncolms;
+      padding: 25px;
+
+      .square_white {
+        background: $white;
+        height: 100%;
+        padding: 0 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        h3 {
+          text-align: center;
+          padding: 40px 0 15px;
+          font-weight: 100;
+          font-size: 1.4rem;
+        }
+        p {
+          opacity: 0.3;
+        }
+        h5 {
+          padding: 45px 0;
+        }
+
+        .square_date {
+          background: $black;
+          color: $white;
+          height: 80px;
+          width: 80px;
+          @include aligncolms;
+
+          h6 {
+            font-size: 1.6rem;
+          }
+        }
+        
+      }
+    }
+    }
+    .date {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+      .square_date {
+        background: $black;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: $white;
+        h6 {
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .name_event {
+      padding: 30px 20px;
+      h3 {
+        color: #21201e;
+        font-weight: 100;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+     
+      }
+      p {
+        opacity: 0.3;
+        padding: 20px 0 0 20px;
+      }
+    }
+    a {
+      color: #21201e;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 25px 0 0 20px;
+      display: block;
+      font-size: 0.8rem;
+      &:visited {
+        color: $black;
+      }
+    }
+}
