@@ -29,6 +29,12 @@
       li {
         border-bottom: 1px $grey solid;
         padding-bottom: 6px;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+
+          &:hover {
+            transform: translateY(30%);
+          }
       }
     }
   }

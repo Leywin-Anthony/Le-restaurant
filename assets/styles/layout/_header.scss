@@ -24,11 +24,29 @@ header {
       display: flex;
       justify-content: space-around;
       text-transform: uppercase;
+
+      li {
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
     }
     .social ul {
       font-size: 0.8rem;
       display: flex;
       justify-content: space-around;
+      
+      li {
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
     }
     
   }
