@@ -147,7 +147,7 @@ header .header_title h6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #eee;
-  min-height: 47vh;
+  min-height: 49vh;
 }
 .section1 .block_white {
   display: -webkit-box;
@@ -354,9 +354,22 @@ header .header_title h6 {
 }
 .section3 .block_form .form {
   background: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 0;
 }
 .section3 .block_form .form h2 {
-  padding-top: 80px;
   font-weight: 100;
   color: #a67245;
   text-transform: capitalize;
@@ -374,11 +387,25 @@ header .header_title h6 {
 .section3 .block_form .form img {
   padding: 25px 0 40px;
 }
-.section3 .block_form .form form .button {
+.section3 .block_form .form .form-inputs {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+.section3 .block_form .form .form-inputs > * {
+  padding: 10px 0;
+  margin: 15px 20px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.section3 .block_form .form .button {
   background: #21201e;
   color: #eee;
   border-radius: 50px;
-  padding: 12px 26px;
+  padding: 16px 34px;
   text-transform: uppercase;
   letter-spacing: 4px;
   cursor: pointer;
@@ -386,9 +413,11 @@ header .header_title h6 {
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
 }
-.section3 .block_form .form form .button:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.section3 .block_form .form .button:hover {
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.433);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.433);
 }
 
 .section4 {

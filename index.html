@@ -191,23 +191,37 @@
               alt="un logo de fouchette et de cuillere qui se croise"
             />
             <!-- formulaire a refaire integralement  -->
-            <form action="/action.php" method="post">
-              <div class="form-grid">
-                <div>
-                  <label for="name">Name</label
-                  ><input id="name" type="text" placeholder="" />
-                </div>
-                <div>
-                  <label for="name">Email</label
-                  ><input id="name" type="text" placeholder="" />
-                </div>
-                <div class="textarea">
-                  <label for="message">Message</label>
-                  <textarea id="message"></textarea>
-                </div>
-              </div>
-              <input type="submit" class="button" value="book now" />
-            </form>
+            <div class="form-inputs">
+              <select name="" id="people">
+                <option value="">People</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+              </select>
+              <input
+                type="date"
+                id="booking-date"
+                name="booking-date"
+                value="2020-07-15"
+                min="2020-07-15"
+              />
+              <input
+                type="time"
+                id="booking-time"
+                name="booking-time"
+                min="07:00"
+                max="21:00"
+              />
+              <input type="text" placeholder="name" />
+              <input type="text" placeholder="phone" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <input type="submit" class="button" value="book now" />
           </div>
         </div>
       </div>
