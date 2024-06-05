@@ -65,7 +65,11 @@ footer {
             }
           }
         }
-      }
+        .fa-brands, .fab {
+          color: $grey;
+          opacity: 0.5;
+        }
+      } 
     }
   }
   

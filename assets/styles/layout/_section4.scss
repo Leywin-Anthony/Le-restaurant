@@ -1,5 +1,8 @@
 .section4 {
   text-align: center;
+  @media screen and (max-width: 680px) {
+    display: none;
+}
   
   .title {
     h2 {

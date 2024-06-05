@@ -4,9 +4,13 @@
     background: $white;
     min-height: 49vh;
 
+    @media screen and (max-width: 720px) {
+        display: block;
+    }
     .block_white {
         display: flex;
         align-items: center;
+    
     }
     .section1_text {
         text-align: center;
@@ -46,5 +50,9 @@
     }
     .img_section1 {
         background: url(./img/store-01.jpg) center/cover;
+
+        @media screen and (max-width: 680px) {
+            display: none;
+        }
     }
 }

@@ -75,6 +75,11 @@ header nav .mid_nav ul {
       justify-content: space-around;
   text-transform: uppercase;
 }
+@media screen and (max-width: 680px) {
+  header nav .mid_nav ul {
+    display: none;
+  }
+}
 header nav .mid_nav ul li {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -149,6 +154,11 @@ header .header_title h6 {
   background: #eee;
   min-height: 49vh;
 }
+@media screen and (max-width: 720px) {
+  .section1 {
+    display: block;
+  }
+}
 .section1 .block_white {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -196,6 +206,11 @@ header .header_title h6 {
 }
 .section1 .img_section1 {
   background: url(./img/store-01.jpg) center/cover;
+}
+@media screen and (max-width: 680px) {
+  .section1 .img_section1 {
+    display: none;
+  }
 }
 
 .section2 {
@@ -313,6 +328,11 @@ header .header_title h6 {
   margin: 0 auto;
   text-align: center;
 }
+@media screen and (max-width: 680px) {
+  .section3 .block_form {
+    display: block;
+  }
+}
 .section3 .block_form .block_black {
   background: #000;
 }
@@ -422,6 +442,11 @@ header .header_title h6 {
 
 .section4 {
   text-align: center;
+}
+@media screen and (max-width: 680px) {
+  .section4 {
+    display: none;
+  }
 }
 .section4 .title h2 {
   padding-top: 70px;
@@ -725,4 +750,8 @@ footer .footer-container .footer_left .social ul li {
 footer .footer-container .footer_left .social ul li:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
+}
+footer .footer-container .footer_left .social .fa-brands, footer .footer-container .footer_left .social .fab {
+  color: rgb(182, 182, 182);
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */
