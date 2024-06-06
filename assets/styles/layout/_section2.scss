@@ -51,6 +51,10 @@
     padding: 16px 20px;
     position: relative;
     z-index: 1000;
+
+    @media screen and (max-width: 900px) {
+      grid-template-columns: 1fr;
+  }
     
     .dish {
       display: grid;
